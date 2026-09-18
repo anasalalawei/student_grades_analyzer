@@ -46,10 +46,10 @@ def calculate_median(numbers: list[float]) -> float:
     if not numbers:
         return 0.0
     sorted_numbers = sorted(numbers)
-    mid = len(sorted_numbers) // 2
+    middle_index = len(sorted_numbers) // 2
     if len(sorted_numbers) % 2 == 0:
-        return (sorted_numbers[mid - 1] + sorted_numbers[mid]) / 2
-    return sorted_numbers[mid]
+        return (sorted_numbers[middle_index - 1] + sorted_numbers[middle_index]) / 2
+    return sorted_numbers[middle_index]
 
 def find_high_achievers(
     students: list[str],
