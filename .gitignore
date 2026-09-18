@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Data (لن نرفع البيانات)
+data/raw/
+*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets (أسرار)
+.env
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
